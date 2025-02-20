@@ -1,0 +1,16 @@
+[package]
+name = "trasaction"
+version = "1.0.0"
+authors = []
+
+[addresses]
+dhruv="40005b68f912f714387e77be547ea55aee9507fcb5dc2dfda3fa1603b2d759f4"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
